@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    The FC command used to compare the two versions of files enabled me to see only those lines where the difference was made.
+    This made it easy for me to spot the bug in the file, which would rather have been tiresome if done for the whole file manually.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Having the previous versions of a file helps in creating a backup point, so that in future, if you feel like falling back to the earlier point of development, you can easily do it by selecting the appropriate version.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+    With manually choosing the commit point, we can specify the particluar logical changes that we have made in the file.
+    This is not possible with the automaically created commit. This means we have more control on the versions with the manual saving mode.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is mainly use for version control of the programming files, which are usually a collection of multiple files.
+    Hence it is important to save all the files together in a single commit. Google Docs on the other end is mostly used for editing the doc files which may or may not be related to different files. Hence it treats each file separately.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The command git log shows the id and the description of each of the commits made. We can copy these ids and using the git diff command know the changes made in each files between those commits.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+    Make changes to the file becomes risk free once we know that we have something to fall back on in case anything goes wrong.
+    This makes us confident enough to go ahead and make the changes in the file and commit them.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to make use of the Git for my future projects where I can implement various version of it.
+
