@@ -21,3 +21,9 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
     Branching structure can get complicated by inclusion of several branches by different collaborators. To get a better view of parent commits of the latest commit on a branch, we can make use of diagrams which can represent the branch structure quite specifically.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    When we merge two branches, the changes added in the last commit of both the branches are added into the merged commit.
+    This allows the collaborators to merge their changed files together into the master branch hassle free. As the changes of both the branches are included into the merged branch, we represent it that way in the diagram.
