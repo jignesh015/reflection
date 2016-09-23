@@ -10,3 +10,13 @@ stay up-to-date with your remote repository?
     The changes on the remote repository can be made by anybody if it is open to public.
     If we don't want that changes to be made in our local master branch we have to option of not pulling the commit.
     This might not be possible if the Git automatically pulls the changes to stay up-to-date.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    Use of branch : When you want to make some experimental changes or add some new features to the code which
+    for a while you don't want to include in the master branch.
+
+    Use of clone : When you want to directly pull the repository from GitHub on your local machine.
+
+    Use of fork : When you want to make a copy of a repository on GitHub first, and then pull it on your machine.
