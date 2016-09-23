@@ -15,4 +15,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-    When we need to introduce experimental changes in the files, we can dod it by creating branches so that the master branch remains unaffected. This way, we can checkout our main files whenever we want by shifting to the master branch.
+    When we need to introduce experimental changes in the files, we can do it by creating branches so that the master branch remains unaffected. This way, we can checkout our main files whenever we want by shifting to the master branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+    Branching structure can get complicated by inclusion of several branches by different collaborators. To get a better view of parent commits of the latest commit on a branch, we can make use of diagrams which can represent the branch structure quite specifically.
