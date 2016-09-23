@@ -6,3 +6,8 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
     Staging area helps in grouping a bunch of files to be commited together. We can group multiple files with same logical changes and add them on to the staging area to be committed later. 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    We can make various changes to several different files. Not all of these changes are related i.e. they can be logically different. So we can use the staging area to stage the files where same logical changes are made so that we can commit them together.
