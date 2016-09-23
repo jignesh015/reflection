@@ -11,3 +11,8 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 
     We can make various changes to several different files. Not all of these changes are related i.e. they can be logically different. So we can use the staging area to stage the files where same logical changes are made so that we can commit them together.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    When we need to introduce experimental changes in the files, we can dod it by creating branches so that the master branch remains unaffected. This way, we can checkout our main files whenever we want by shifting to the master branch.
