@@ -32,4 +32,12 @@ How would you collaborate without using Git or GitHub? What would be easier, and
     One way to collaborate without using GitHub is to share the files with all the collaborators via mail. 
     This seems to be tedious, and also it gets complex when there is a large number of collaorators.
 
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+    While collaborating with someone else's files, it is advisable to make a new branche to include our changes
+    rather than adding them directly into the master branch and push them. This way the original owner of the file
+    can review the changes and then decide whether or not to merge the changes into the master.
+
     
